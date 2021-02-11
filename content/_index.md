@@ -1,6 +1,6 @@
 ---
-title: "Adaptive Control of Microstructre Evolution"
-featured_image: '/images/banner.png'
+title: "Adaptive Control of Microstructure Evolution"
+featured_image: '/images/banner1.png'
 description: "A short description of the project"
 ---
 

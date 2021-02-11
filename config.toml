@@ -8,7 +8,7 @@ theme = "ananke"
 
 [params]
   background_color_class = "bg-black"
-  featured_image = "/images/banner.png"
+  featured_image = "/images/banner1.png"
   recent_posts_number = 2
 
 [menu]
