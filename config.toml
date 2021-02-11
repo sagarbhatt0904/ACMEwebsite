@@ -1,7 +1,7 @@
 title = "Home"
-# baseURL = "https://example.com"
-baseURL = "" #remove this line when there is an absolute url
-relativeURLs = "True"
+baseURL = "https://homepages.rpi.edu/~bhatts8/"
+# baseURL = "" #remove this line when there is an absolute url
+# relativeURLs = "True"
 languageCode = "en-us"
 theme = "ananke"
 

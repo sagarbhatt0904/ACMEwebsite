@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inclusion on Home</title>
-    <link>/inclusion.html</link>
+    <link>https://homepages.rpi.edu/~bhatts8/inclusion/</link>
     <description>Recent content in Inclusion on Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/inclusion/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://homepages.rpi.edu/~bhatts8/inclusion/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

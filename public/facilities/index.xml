@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Facilities on Home</title>
-    <link>/facilities.html</link>
+    <link>https://homepages.rpi.edu/~bhatts8/facilities/</link>
     <description>Recent content in Facilities on Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/facilities/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://homepages.rpi.edu/~bhatts8/facilities/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
