@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories.html</loc>
+  </url>
+  
+  <url>
+    <loc>/contact.html</loc>
+  </url>
+  
+  <url>
+    <loc>/education-and-outreach.html</loc>
+  </url>
+  
+  <url>
+    <loc>/facilities.html</loc>
+  </url>
+  
+  <url>
+    <loc>/inclusion.html</loc>
+  </url>
+  
+  <url>
+    <loc>/internal.html</loc>
+  </url>
+  
+  <url>
+    <loc>/people.html</loc>
+  </url>
+  
+  <url>
+    <loc>/publications.html</loc>
+  </url>
+  
+  <url>
+    <loc>/research.html</loc>
+  </url>
+  
+  <url>
+    <loc>/tags.html</loc>
+  </url>
+  
+</urlset>

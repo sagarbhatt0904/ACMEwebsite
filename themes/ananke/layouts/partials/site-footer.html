@@ -1,0 +1,11 @@
+<footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
+    &copy; ACME Group {{ with .Site.Copyright | default .Site.Title }}  {{ now.Format "2006"}} {{ end }} 
+  </a>
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.nsf.gov/"> 
+    <IMG align="right" src="images/NSF_4-Color_bitmap_Logo.png" alt="NSF Logo" width="50" url>
+  </a>
+</div> 
+    
+</footer>

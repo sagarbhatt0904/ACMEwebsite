@@ -1,0 +1,63 @@
+title = "Home"
+# baseURL = "https://example.com"
+baseURL = "" #remove this line when there is an absolute url
+relativeURLs = "True"
+languageCode = "en-us"
+theme = "ananke"
+
+
+[params]
+  background_color_class = "bg-black"
+  featured_image = "/images/banner.png"
+  recent_posts_number = 2
+
+[menu]
+
+  [[menu.main]]
+    identifier = "People"
+    name = "People"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/People/"
+    weight = 1
+   [[menu.main]]
+    identifier = "Inclusion"
+    name = "Inclusion"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/Inclusion/"
+    weight = 2
+ [[menu.main]]
+    identifier = "Research"
+    name = "Research"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/Research/"
+    weight = 3
+ [[menu.main]]
+    identifier = "Facilities"
+    name = "Facilities"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/Facilities/"
+    weight = 4
+ [[menu.main]]
+    identifier = "Education and Outreach"
+    name = "Education and Outreach"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/Education and Outreach/"
+    weight = 5
+  [[menu.main]]
+    identifier = "Publications"
+    name = "Publications"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/Publications/"
+    weight = 6
+  [[menu.main]]
+    identifier = "Internal"
+    name = "Internal"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/Internal/"
+    weight = 7
+  [[menu.main]]
+    identifier = "Contact"
+    name = "Contact"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/Contact/"
+    weight = 8
