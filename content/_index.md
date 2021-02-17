@@ -8,11 +8,13 @@ description: "This work aims to develop methods to predict, monitor, and control
 
 Our three over-arching project research objectives are: 
 
-(i) To enhance predictive capability for the relationship between independently controllable thermal and mechanical processing conditions and resultant microstructure in polycrystalline Ti-6Al-4V, by developing robust methods for integrating real-time observation and simulation of microstructural evolution as functions of thermomechanical trajectories;
-(ii) To control microstructural evolution by regulating the temperature and strain history using model-based feed-forward control and measurement-based feedback control and model adaptation; and
+(i) To enhance predictive capability for the relationship between independently controllable thermal and mechanical processing conditions and resultant microstructure in polycrystalline Ti-6Al-4V, by developing robust methods for integrating real-time observation and simulation of microstructural evolution as functions of thermomechanical trajectories,
+
+(ii) To control microstructural evolution by regulating the temperature and strain history using model-based feed-forward control and measurement-based feedback control and model adaptation,
+
 (iii) To develop methodologies to apply the knowledge learned in the microscale laboratory environment to macroscale industrial processes, where real-time micro-structural sensing is not available. This “meeting ground” will be macroscopic techniques which manufacturers employ in the development of their own process sequences. 
 
-Ultimately, we believe this work can provide critical guidance to process designers enabling shorter material development cycles.  
+Ultimately, we believe this work can provide critical guidance to process designers enabling shorter material development cycles. 
 
 
 # Statement of Intellectual Merit
@@ -28,4 +30,4 @@ The advances anticipated under this project are:
 
 # Statement of Broader Impact
 
-This work can develop new adaptive process control methodologies that can be of significant competitive advantage to the US metals manufacturing industry.  We are also training the next-generation workforce to be versed in the integrated experiment-simulation-data approached epitomized by the <a href="https://www.mgi.gov/ "target="_blank">Materials Genome Initiative</a>. Graduate and undergraduate student researchers involved in this project are exposed to an interdisciplinary set of engineering methodologies as well as exposure to industrial practice.  The graduate student researchers have created a set of outreach materials for an undergraduate pop-up course on “Better metal forming by linking experiment, modeling, and process control.”
+This work can develop new adaptive process control methodologies that can be of significant competitive advantage to the US metals manufacturing industry.  We are also training the next-generation workforce to be versed in the integrated experiment-simulation-data approached epitomized by the <a href="https://www.mgi.gov/ "target="_blank">Materials Genome Initiative</a>. Graduate and undergraduate student researchers involved in this project are exposed to an interdisciplinary set of engineering methodologies as well as exposure to industrial practice.  The graduate student researchers have created a set of outreach materials for an undergraduate pop-up course on “Better metal forming by linking experiment, modeling, and process control."
