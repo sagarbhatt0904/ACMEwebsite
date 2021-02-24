@@ -54,7 +54,7 @@ theme = "ananke"
     identifier = "Internal"
     name = "Internal"
     pre = "<i class='fa fa-heart'></i>"
-    url = "/Internal/"
+    url = "https://rpi.app.box.com/folder/93218026369"
     weight = 7
   [[menu.main]]
     identifier = "Contact"
