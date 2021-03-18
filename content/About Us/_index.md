@@ -23,7 +23,7 @@ Henry Burlage Jr. Professor, Acting Vice President of Research, Director of Cent
 - Sagar Bhatt (PhD, in progress), Department of Mechanical, Aerospace, and Nuclear Engineering
 - Genvieve Kane (PhD, in progress), Department of Materials Science and Engineering
 - Anant Kekre (PhD, in progress), Department of Mechanical, Aerospace, and Nuclear Engineering
-- Chengjian Zheng (PhD, May 2020), Department of Mechanical, Aerospace, and Nuclear Engineering
+- Chengjian Zheng (PhD, May 2018), Department of Mechanical, Aerospace, and Nuclear Engineering
 - Michael Allahua (MS, May 2020), Department of Mechanical, Aerospace, and Nuclear Engineering
 
 # Inclusion
