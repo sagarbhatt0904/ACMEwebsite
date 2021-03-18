@@ -15,50 +15,36 @@ theme = "ananke"
 [menu]
 
   [[menu.main]]
-    identifier = "People"
-    name = "People"
+    identifier = "About Us"
+    name = "About Us"
     pre = "<i class='fa fa-heart'></i>"
-    url = "/People/"
+    url = "/About Us/"
     weight = 1
-   [[menu.main]]
-    identifier = "Inclusion"
-    name = "Inclusion"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/Inclusion/"
-    weight = 2
+  
  [[menu.main]]
     identifier = "Research"
     name = "Research"
     pre = "<i class='fa fa-heart'></i>"
     url = "/Research/"
-    weight = 3
- [[menu.main]]
-    identifier = "Facilities"
-    name = "Facilities"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/Facilities/"
-    weight = 4
+    weight = 2
+
  [[menu.main]]
     identifier = "Education and Outreach"
     name = "Education and Outreach"
     pre = "<i class='fa fa-heart'></i>"
     url = "/Education and Outreach/"
-    weight = 5
+    weight = 3
+  
   [[menu.main]]
     identifier = "Publications"
     name = "Publications"
     pre = "<i class='fa fa-heart'></i>"
     url = "/Publications/"
-    weight = 6
+    weight = 4
+  
   [[menu.main]]
     identifier = "Internal"
     name = "Internal"
     pre = "<i class='fa fa-heart'></i>"
     url = "https://rpi.app.box.com/folder/93218026369"
-    weight = 7
-  [[menu.main]]
-    identifier = "Contact"
-    name = "Contact"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/Contact/"
-    weight = 8
+    weight = 5
