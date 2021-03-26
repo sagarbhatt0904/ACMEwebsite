@@ -6,25 +6,32 @@ title: "About Us"
 # People
 ## Faculty
 ### Principal Investigator 
-- Robert Hull,
-Henry Burlage Jr. Professor, Acting Vice President of Research, Director of Center for Materials, Devices, and Integrated Systems
+
+
+- __Robert Hull__ 
+{{<positionSmallTextItalic>}}Henry Burlage Jr. Professor, Acting Vice President of Research, Director of Center for Materials, Devices, and Integrated Systems {{</positionSmallTextItalic>}}
 
 ### Co-Principal Investigators
-- Daniel J. Lewis, Associate Professor, Department of Materials Science and Engineering
-- Antoinette M. Maniatty, Professor, Department of Mechanical, Aerospace, and Nuclear Engineering
-- John T. Wen, Professor and Head, Department of Electrical, Computer, and Systems Engineering
+- __Daniel J. Lewis__, {{<positionSmallTextItalic>}}Associate Professor, Department of Materials Science and Engineerin{{</positionSmallTextItalic>}}
+- __Antoinette M. Maniatty__,  {{<positionSmallTextItalic>}}Professor, Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
+
+    Antoinette M. Maniatty is a professor in the Department of Mechanical, Aerospace, and Nuclear Engineering.  Her expertise is in computational modeling of the behavior and evolution of polycrystalline materials under thermal-mechanical loading.  Maniatty leads the finite element crystal plasticity deformation and the Monte Carlo grain growth simulation workon this project. She advises graduate students and has hosted undergraduate students in her research group on this project, including a student participating in Rensselaer’s Arch program during their away semester.  Maniatty is the founding coordinator and is actively involved in Rensselaer’s Summer Engineering Exploration Program for high school students. 
+- __John T. Wen__, {{<positionSmallTextItalic>}}Professor and Head, Department of Electrical, Computer, and Systems Engineering{{</positionSmallTextItalic>}}
 
 ### Post-Doctoral Research Associate 
-- Dustin J. Andersen, Center for Materials, Devices, and Integrated Systems
+- Dustin J. Andersen, {{<positionSmallTextItalic>}}Center for Materials, Devices, and Integrated Systems{{</positionSmallTextItalic>}}
 
 ## Students
 ### Graduate Students
-- Arun Baskaran (PhD, December 2020), Department of Materials Science and Engineering
-- Sagar Bhatt (PhD, in progress), Department of Mechanical, Aerospace, and Nuclear Engineering
-- Genvieve Kane (PhD, in progress), Department of Materials Science and Engineering
-- Anant Kekre (PhD, in progress), Department of Mechanical, Aerospace, and Nuclear Engineering
-- Chengjian Zheng (PhD, May 2018), Department of Mechanical, Aerospace, and Nuclear Engineering
-- Michael Allahua (MS, May 2020), Department of Mechanical, Aerospace, and Nuclear Engineering
+- Arun Baskaran (PhD, December 2020), {{<positionSmallTextItalic>}}Department of Materials Science and Engineering{{</positionSmallTextItalic>}}
+- Sagar Bhatt (PhD, in progress), {{<positionSmallTextItalic>}}Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
+- Genvieve Kane (PhD, in progress), {{<positionSmallTextItalic>}}Department of Materials Science and Engineering{{</positionSmallTextItalic>}}
+- Anant Kekre (PhD, in progress), {{<positionSmallTextItalic>}}Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
+- Chengjian Zheng (PhD, May 2018), {{<positionSmallTextItalic>}}Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
+- Michael Allahua (MS, May 2020), {{<positionSmallTextItalic>}}Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
+
+### Undergraduate Students
+- Kequan (Kevin) Huang, {{<positionSmallTextItalic>}}Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
 
 # Inclusion
 
