@@ -133,7 +133,46 @@
     <main class="pb7" role="main">
       
 <article class="pa3 pa4-ns nested-copy-line-height nested-img">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tl-l center measure-wide lh-copy mid-gray"></section>
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tl-l center measure-wide lh-copy mid-gray"><h2 id="overview">Overview</h2>
+
+<p>Under this project we are establishing the methods, algorithms and architecture for integrated sensing-simulation-control methodologies for thermomechanical processing of an industrially relevant alloy, Ti-6Al-4V (Ti64), to attain as close as possible a desired microstructure. The overall strategy, illustrated in the figure below, starts with defining target microstructural features relative to an initial microstructure, then utilizing information from microstructure evolution simulations together with experimental observation in situ using an SEM heating-tensile stage (the “adaptive microscale simulator”, AMS) to inform a combined feed-forward/feedback thermomechanical trajectory control loop to evolve the material toward the target microstructure. We then apply this methodology to define thermomechanical processing trajectories for industrially relevant processing. The following major technical advances have been realized: real-time microstructure imaging in situ in an SEM under thermomechanical processing conditions; image-driven machine learning for automated microstructure characterization; a suite of high fidelity finite element, Monte Carlo, and phase field simulation tools that can be used on high performance computing platforms to model grain structure and phase evolution under thermomechanical processing conditions; fitting modeling and experimental observations to a reduced order single- and multi-phase Johnson-Mehl-Avrami-Kolmogorov (JMAK) equation and development of a process to find the optimal cooling profile for a prescribed <span  class="math">\(\beta \rightarrow \alpha\)</span> transformation path to obtain as close as possible to a prescribed microstructure in Ti64.</p>
+
+<p><figure><img src="flowChartACME.png" alt="Project Overview Flow Chart"></figure></p>
+
+<h2 id="in-situ-microstructure-evolution--adaptive-microstructure-simulator-ams">In situ Microstructure Evolution – Adaptive Microstructure Simulator (AMS)</h2>
+
+<p>As a core of this program, the AMS enables us to image the evolution of microstructure in Ti64 in real time in the SEM during thermomechanical processing conditions that are relevant to at least some industrial processing conditions.  A large set of experiments have been performed, in which the sample was heated above the <span  class="math">\(\beta\)</span>-transus, and then cooled to room temperature with or without load.  In the figure below, the sample is heated to above the <span  class="math">\(\beta\)</span>-transus, then held just below the transus at 980°C for 30 minutes, then cooled to room temperature at 0.1°C/s, such that the α-phase grows by a lamellar mechanism.  Lamellae start to be observable on cooling at around 880°C, and the times given in this subsequent description refer to a t=0 at this temperature, as the sample continues to cool at 0.1°C/s. (a) is recorded after 68 seconds, (b) after 148 s, (c) after 216 s and (d) after ~600 s (where the temperature is now around 820°C. (e) shows the projected (onto the sample surface plane) length evolution of two lamellae, demonstrating the ability to capture the evolution of the microstructure, not just at the integrated level, but also of its individual components.  We have demonstrated that in such observations we can identify conditions where the aspect ratios of the lamellae can be controlled with implication for the mechanical properties of the material.  This ability to track the individual components of the microstructure in addition to the evolution of the overall microstructure is key to understanding the</p>
+
+<p><figure><img src="lamellae.png" alt="Lamellae Lengths"></figure></p>
+
+<p>In the figure below, we show results from lamellar growth during thermomechanical deformation.  The sample is annealed above the <span  class="math">\(\beta\)</span>-transus, held for 15 minutes at 1010°C, and then initially cooled at a rate of 0.5°C/s.  Once lamellae begin to nucleate, the sample is held at that temperature (~885°C, with thermal fluctuations of around 25°C) for 320 s until lamellar growth stagnates.  (a) and (b) show the growth of lamellae within different colonies during anneal, with (b) showing the microstructure once lamellar lengths stagnate after 320s. Deformation was then initiated at 930±20°C at a strain rate of 1x10-4 / s.  (c) and (d) show the microstructure after extension of  ~8 mm and 12 mm, respectively, corresponding to net strains of 33% and 50% across the gauge length. We observe shortening, even disappearance, of the lamella during the isothermal deformation process. When deformation is completed after an additional 2500s, cooling resumes at 0.5oC/s. As shown in (e), the lamellae restart growing in length.  (f) and (g) show the evolution of individual lamellae at each stage of this process.  These results again illustrate the power of the in situ SEM method, enabling us to track the evolution of the overall microstructure, and its individual components, as well as to separate the effects of temperature and deformation at each stage of the process. This enables the kinetics of the lamellar evolution to be understood in detail.</p>
+
+<p><figure><img src="lamellae2.png" alt="Lamellae Lengths"></figure></p>
+
+<h2 id="microstructure-image-analysis-and-characterization">Microstructure Image Analysis and Characterization</h2>
+
+<p>To control of microstructural evolution rapidly, we need objective methods to quantify structures.  The complexities of Ti64 microstructures as well as natural image-to-image variations make traditional image analysis difficult.  Therefore. a focus of this work was to develop Image Driven Machine Learning (IDML) methods for microstructure quantification.  We considered heat treatments that started above the <span  class="math">\(\beta\)</span>-transus and were subsequently quenched at different rates through furnace, air and water quenching, leading to microstructures that include lamellar, bimodal and acicular morphologies.   The IDML approach is shown in the Figure below. A testing set of the microstructures were assigned class labels, and subsequently, a convolution neural network (CNN) having three convolution layers and two pooling layers was trained to classify these images.  After classification, microstructure specific segmentation was completed using computer vision algorithms that included a topological watershed algorithm and the histogram of oriented gradients.  Segmentation successfully identified globular and lamellar regions of the images.</p>
+
+<p><figure><img src="microstructureCharacterization.png" alt="Microstructure Characterization"></figure></p>
+
+<h2 id="modeling-and-simulation-of-microstructure-evolution">Modeling and Simulation of Microstructure Evolution</h2>
+
+<p>Predictive models of microstructure evolution for Ti64 under thermo-mechanical processing have been developed.  Figure 5 shows an overview of the simulation methods at the different length and time scales and how they are integrated. The finite element method (FEM) is used to model the thermomechanical response at the macroscale and the deformation response of the polycrystal and within grains due to the <span  class="math">\(\beta\rightarrow\alpha\)</span> phase transformation, while a Monte Carlo (MC) method is used to model the thermally driven grain structure evolution. Phase field (PF) methods at the grain and sub-grain scale are used to model the formation of the <span  class="math">\(\alpha/ \beta\)</span> sub-grain microstructure formed in Ti64 alloys.</p>
+
+<p>We have calibrated our MC simulation tool, which can handle temperature fields that vary in space and time, for grain growth in Ti64, and applied it to predict the observed grain size gradient in the AMS tensile sample.  At the macroscale, we did a thermal analysis of the tensile sample in the AMS stage, validating against a thermocouple temperature measurement on the surface. The resulting temperature field (Figure below, lower left) history was then applied in the MC simulation, starting with an initial average grain size of 20 <span  class="math">\(\mu\)</span>m, similar to that observed in the experiment.  The non-uniform grain size predicted from the simulation (Figure below, center bottom).   The crystal plasticity finite element (CPFE) developed in Maniatty’s group has also been extended to model the deformation behavior of the hcp <span  class="math">\(\alpha\)</span> phase at typical forming temperatures and to model the bcc <span  class="math">\(\beta\)</span> phase near the <span  class="math">\(\beta\)</span>-transus temperature deforming around nucleated <span  class="math">\(\alpha\)</span> variants. Finally, we are coupling the CPFE and phase field (PF) frameworks described next.</p>
+
+<p><figure><img src="modelling.png" alt="Modelling and Simulation"></figure></p>
+
+<p>A multi-component, multi-phase field model has been implemented to study the influence of continuous cooling on the solid-state phase transformation from <span  class="math">\(\beta\rightarrow\alpha\)</span>, occurring in Ti64. The PF model is comprised of twelve non-conserved order parameters, each of which uniquely describe an orientational variant of <span  class="math">\(\alpha\)</span> in the <span  class="math">\(\beta\)</span> metrix, and two conserved order parameters, each of which describe the composition fields. The model is coupled to thermodynamic databases, which facilitates a realistic solute partitioning between the phases in the simulations, considers the mechanical interaction between the <span  class="math">\(\alpha\)</span> and <span  class="math">\(\beta\)</span> phases and between different variants of <span  class="math">\(\alpha\)</span>, incorporates the experimentally observed habit-planes for each variant, and simulates nucleation of the <span  class="math">\(\alpha\)</span> phase from the <span  class="math">\(\beta\)</span> matrix by explicitly adding nuclei at a rate consistent with the classical nucleation theory. The free energy of nucleation is composed of both the chemical free energy difference between the two phases and the local elastic interaction energy.  The figure below shows <span  class="math">\(\alpha\)</span>-lamellar growth simulation fit to the in situ observations, which was done for different cooling conditions. The figure shows the distribution of Al (Left) and V (Right) solute fields around growing <span  class="math">\(\alpha\)</span>-lamellae. The effect of two distinct processing variables, cooling rate and prior-<span  class="math">\(\beta\)</span> grain size, on the variant distribution was studied.</p>
+
+<p><figure><img src="PFlamellae.png" alt="Alpha lamellar growth simulation"></figure></p>
+
+<h2 id="microstructure-control">Microstructure Control</h2>
+
+<p>The JMAK equation for phase transformations is being used to fit the <span  class="math">\(\beta\rightarrow\alpha\)</span> phase transformation during cooling of Ti64. We have estimated the JMAK parameters, i.e., the rate constant and Avrami index, using Differential Scanning Calorimetry data via a nonlinear optimization scheme. The JMAK model with estimated parameters is used as the truth model in a trajectory optimization algorithm that seeks to identify optimal input temperature profiles required for generating a desired <span  class="math">\(\alpha\)</span>-transformation path, and the resulting outputs are compared with the reference paths, as shown in the Figure below.  Our method is based on iterative control, which estimates the trajectory gradient with respect to the temperature input for the gradient-based update of the cooling profile. In this last year of the program, we are extending the JMAK model based on the phase field predictions to consider the multi-component case and how thermo-mechanical processing condition affects the lamellar structure (e.g., width and length).  The parameter identification and processing optimization developed for temperature control so far may be applied to such a generalized JMAK model to achieve adaptive microstructure control.  We are testing these control algorithms first on the phase field model and then the AMS.</p>
+
+<p><figure><img src="JMAK.png" alt="JMAK"></figure></p>
+</section>
     <section class="flex-ns flex-wrap justify-around mt5">
         
     </section>
@@ -142,19 +181,27 @@
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://homepages.rpi.edu/~bhatts8/" >
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: {
+        
+        
+        processEscapes: true, processEnvironments: true, skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'], TeX: { equationNumbers: { autoNumber: "AMS" }, extensions: ["AMSmath.js", "AMSsymbols.js"] } }, CommonHTML: { linebreaks: { automatic:
+        true } }, "HTML-CSS": { linebreaks: { automatic: true } }, SVG: { linebreaks: { automatic: true } } });
+    </script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <div class="flex justify-between">
+        <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://homepages.rpi.edu/~bhatts8/">
     &copy; ACME Group   2021  
   </a>
-  <a class="f7 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://github.com/theNewDynamic/gohugo-theme-ananke">
+        <a class="f7 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://github.com/theNewDynamic/gohugo-theme-ananke">
       Theme Credits - Ananke
-  </a>    
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.nsf.gov/"> 
-    <IMG align="right" src="https://www.nsf.gov/images/logos/NSF_4-Color_bitmap_Logo.png" alt="NSF Logo" width="50" url>
   </a>
-</div> 
-    
-</footer>
+        <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.nsf.gov/">
+            <IMG align="right" src="https://www.nsf.gov/images/logos/NSF_4-Color_bitmap_Logo.png" alt="NSF Logo" width="50" url>
+        </a>
+    </div>
 
+</footer>
   </body>
 </html>
