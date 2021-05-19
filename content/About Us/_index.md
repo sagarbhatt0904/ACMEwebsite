@@ -17,6 +17,8 @@ title: "About Us"
 
     Antoinette M. Maniatty is a professor in the Department of Mechanical, Aerospace, and Nuclear Engineering.  Her expertise is in computational modeling of the behavior and evolution of polycrystalline materials under thermal-mechanical loading.  Maniatty leads the finite element crystal plasticity deformation and the Monte Carlo grain growth simulation workon this project. She advises graduate students and has hosted undergraduate students in her research group on this project, including a student participating in Rensselaer’s Arch program during their away semester.  Maniatty is the founding coordinator and is actively involved in Rensselaer’s Summer Engineering Exploration Program for high school students. 
 - __John T. Wen__, {{<positionSmallTextItalic>}}Professor and Head, Department of Electrical, Computer, and Systems Engineering{{</positionSmallTextItalic>}}
+    
+    John Wen is a professor in the Department of Electrical, Computer, and Systems Engineering.  John Wen’s research is in the area of control theory and applications, with particular emphasis in hard problems that lie at the intersection of multiple disciplines. These problems are frequently characterized by complex, nonlinear, and imprecise models and multiple design objectives.Wen leads the feedback controller design, feedforward optimization, and model reduction part of the project. 
 
 ### Post-Doctoral Research Associate 
 - Dustin J. Andersen, {{<positionSmallTextItalic>}}Center for Materials, Devices, and Integrated Systems{{</positionSmallTextItalic>}}
