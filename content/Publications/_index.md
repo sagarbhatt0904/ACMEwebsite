@@ -14,6 +14,8 @@ title: "Publications"
 
 - G.A. Kane, M.D. Frey and R. Hull, Influence of Controlled Cooling Rates During Thermal Processing of Ti 6% Al 4% V Alloys Using In Situ Scanning Electron Microscopy, MRS Advances, 5:1603-11, 2020. DOI: https://doi.org/10.1557/adv.2020.190
 
+- Arun Baskaran, Microstructural Investigation of Ti-6Al-4V Using Phase Field Modeling and Image-Driven Machine Learning, PhD Dissertation, Rensselaer Polytechnic Institute, 2020.
+
 - M. J. Allahua, Predictive modeling of temperature and grain growth for a thermally processed metal, MS thesis, Rensselaer Polytechnic Institute, 2020.
 
 - S. Bhatt, A. Baskaran, D. J. Lewis, A. M. Maniatty, Numerical modeling of Ti-6Al-4V microstructure evolution for thermomechanical process control, Proceedings of NUMIFORM 2019: The 13th International Conference on Numerical Methods in Industrial Forming Processes, 401-404, 2019.
