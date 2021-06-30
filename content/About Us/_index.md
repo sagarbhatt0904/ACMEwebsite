@@ -16,7 +16,7 @@ title: "About Us"
 - __Antoinette M. Maniatty__,  {{<positionSmallTextItalic>}}Professor, Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
 
     Antoinette M. Maniatty is a professor in the Department of Mechanical, Aerospace, and Nuclear Engineering.  Her expertise is in computational modeling of the behavior and evolution of polycrystalline materials under thermal-mechanical loading.  Maniatty leads the finite element crystal plasticity deformation and the Monte Carlo grain growth simulation workon this project. She advises graduate students and has hosted undergraduate students in her research group on this project, including a student participating in Rensselaer’s Arch program during their away semester.  Maniatty is the founding coordinator and is actively involved in Rensselaer’s Summer Engineering Exploration Program for high school students. 
-- __John T. Wen__, {{<positionSmallTextItalic>}}Professor and Head, Department of Electrical, Computer, and Systems Engineering{{</positionSmallTextItalic>}}
+- __John T. Wen__, {{<positionSmallTextItalic>}}Russell Sage Professor and Head, Department of Electrical, Computer, and Systems Engineering{{</positionSmallTextItalic>}}
     
     John Wen is a professor in the Department of Electrical, Computer, and Systems Engineering.  John Wen’s research is in the area of control theory and applications, with particular emphasis in hard problems that lie at the intersection of multiple disciplines. These problems are frequently characterized by complex, nonlinear, and imprecise models and multiple design objectives.Wen leads the feedback controller design, feedforward optimization, and model reduction part of the project. 
 
@@ -29,6 +29,7 @@ title: "About Us"
 - Sagar Bhatt (PhD, in progress), {{<positionSmallTextItalic>}}Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
 - Genvieve Kane (PhD, in progress), {{<positionSmallTextItalic>}}Department of Materials Science and Engineering{{</positionSmallTextItalic>}}
 - Anant Kekre (PhD, in progress), {{<positionSmallTextItalic>}}Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
+- Yixuan Tan (PhD, December 2017),{{<positionSmallTextItalic>}}Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
 - Chengjian Zheng (PhD, May 2018), {{<positionSmallTextItalic>}}Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
 - Michael Allahua (MS, May 2020), {{<positionSmallTextItalic>}}Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
 
