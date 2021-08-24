@@ -34,7 +34,12 @@ title: "About Us"
 - Michael Allahua (MS, May 2020), {{<positionSmallTextItalic>}}Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
 
 ### Undergraduate Students
+- Michael Allahua (BS, May 2019), {{<positionSmallTextItalic>}}Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
+- Krista Biggs, {{<positionSmallTextItalic>}}Department of Materials Science and Engineering{{</positionSmallTextItalic>}}
+- Alex Brodsky,  {{<positionSmallTextItalic>}}Department of Materials Science and Engineering{{</positionSmallTextItalic>}}
 - Kequan (Kevin) Huang, {{<positionSmallTextItalic>}}Department of Mechanical, Aerospace, and Nuclear Engineering{{</positionSmallTextItalic>}}
+- Malcolm McClymonds, {{<positionSmallTextItalic>}}Department of Materials Science and Engineering{{</positionSmallTextItalic>}}
+- Daniel Pleva, {{<positionSmallTextItalic>}}Department of Materials Science and Engineering{{</positionSmallTextItalic>}}
 
 # Inclusion
 
@@ -43,4 +48,3 @@ We are committed to:
 - mentoring all people who join our research team
 - respectful discussions and respect for each others' ideas and opinions
 - giving back to our community through participation in education and outreach activities
-
