@@ -3,10 +3,10 @@ title: "Education and Outreach"
 # featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 # description: "A short description of the project"
 ---
-### Graduate student training:
+### Graduate Student Training:
 Six PhD students, two of whom have graduated, have received interdisciplinary training and exposure to industrial methodologies. This work is conducted in a highly collaborative environment across the set of PI laboratories. The PhD students have developed expertise from graduate classes in microscopy, modeling methods, and control/mechatronics.The PhD students have presented and demonstrated their work to our industrial collaborators, Cartech and Ducommon. Four of the PhD students have spent at least two semesters holding teaching assistant positions to expose them to the teaching side of the professoriate.
 
-### Undergraduate student training:
+### Undergraduate Student Training:
 Six undergraduate researchers have participated in this research, including two who participated during their Arch away semester, a new program at Rensselaer where students spend their summer at the end of the sophomore year taking courses and then spend a semester in their junior year pursuing a non-classroom experience to enrich their studies. Half of the undergraduate students were from underrepresented groups, and one stayed on to earn an MS degree working on this project. 
 
 A senior design team of eight undergraduate seniors from four departments, led by Prof. Lewis (co-PI), worked on the design of a sub-system of a 3D serial sectioning machine for 3D optical reconstruction of Ti-6Al-4V samples at macroscopic length scales. 
